@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Acarajé Da Ró"
+description = "Landing page responsiva para o restaurante Acarajé Da Ró, em Águas Claras, com informações do local, avaliações, contato e chamada para pedir pelo iFood."
+version = "1.0.0"
+id = "artifacts/acaraje-da-ro"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18796
+
+[services.development]
+run = "pnpm --filter @workspace/acaraje-da-ro run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/acaraje-da-ro", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/acaraje-da-ro/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18796"
+BASE_PATH = "/"
