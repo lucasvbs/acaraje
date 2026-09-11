@@ -6,6 +6,7 @@ import { TooltipProvider } from '@/components/ui/tooltip';
 import NotFound from '@/pages/not-found';
 import logoPath from '@assets/acaraje_perfil_insta-02_no_bg.png';
 import acarajeTradicional from '@assets/generated_images/acaraje-tradicional.png';
+import heroAcaraje from '@assets/generated_images/hero-acaraje.webp';
 import vatapaDaRo from '@assets/generated_images/vatapa-da-ro.png';
 import abaraBahiano from '@assets/generated_images/abara-no-prato.webp';
 import mesaBaiana from '@assets/generated_images/mesa-baiana.png';
@@ -141,13 +142,13 @@ function Home() {
               <div className="meta-item"><span className="meta-value">desde cedo</span><span className="meta-label">feito à mão</span></div>
             </div>
           </div>
-          <div className="food-art-wrap" aria-label="Ilustração de um acarajé recheado servido em um prato" role="img">
+          <div className="food-art-wrap">
             <div className="food-art-shadow" />
             <div className="food-art">
+              <div className="hero-photo">
+                <img src={heroAcaraje} alt="Acarajés e acompanhamentos preparados pelo Acarajé Da Ró" width="4288" height="2848" fetchPriority="high" />
+              </div>
               <div className="art-stamp"><strong>100%</strong> feito à mão<br />com dendê</div>
-              <div className="garnish" />
-              <div className="acaraje" />
-              <div className="plate" />
             </div>
           </div>
         </div>
