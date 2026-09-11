@@ -129,7 +129,7 @@ function Home() {
         <div className="container hero-inner">
           <div className="hero-copy">
             <span className="eyebrow hero-kicker">Tempero baiano em Brasília</span>
-            <h1 className="display hero-title">A Bahia<br />mora <em>aqui.</em></h1>
+            <h1 className="display hero-title">Acarajé baiano<br />em <em>Águas Claras.</em></h1>
             <p className="hero-lede">O verdadeiro e melhor acarajé de Brasília, venha conferir! Massa feita na hora, dendê no ponto e aquela acolhida que faz a gente sentar sem pressa.</p>
             <div className="hero-actions">
               <a href={ifoodUrl} target="_blank" rel="noreferrer" className="button button-primary" data-testid="link-hero-ifood">Ver cardápio no iFood <ArrowUpRight size={17} /></a>
