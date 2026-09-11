@@ -7,7 +7,7 @@ import NotFound from '@/pages/not-found';
 import logoPath from '@assets/acaraje_perfil_insta-02_no_bg.png';
 import acarajeTradicional from '@assets/generated_images/acaraje-tradicional.png';
 import vatapaDaRo from '@assets/generated_images/vatapa-da-ro.png';
-import abaraBahiano from '@assets/generated_images/abara-bahiano.png';
+import abaraBahiano from '@assets/generated_images/abara-no-prato.webp';
 import mesaBaiana from '@assets/generated_images/mesa-baiana.png';
 import {
   ArrowUpRight,
@@ -83,7 +83,7 @@ function Home() {
       name: 'Abará baiano',
       description: 'Macio, intenso e embrulhado na folha, do jeitinho que pede a tradição.',
       image: abaraBahiano,
-      alt: 'Abarás envolvidos em folhas verdes de bananeira sobre prato de cerâmica',
+       alt: 'Abará baiano servido com camarão, vatapá e acompanhamentos em uma bandeja',
       className: '',
     },
     {
