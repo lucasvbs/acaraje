@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "BASE_PATH=/ PORT=4173 pnpm --filter @workspace/acaraje-da-ro run build",
+  "outputDirectory": "artifacts/acaraje-da-ro/dist/public"
+}
